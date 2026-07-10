@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,17 +60,30 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|161465000|77950000|8346df39-b160-45f2-ac52-ab7ba1469b3f|4e2a7bef-06e2-4bea-9730-d87e985f48aa|F.Cu",
+          "decoupling caps don't carry high current"
+        ],
+        [
+          "starved_thermal|166500000|78360000|8346df39-b160-45f2-ac52-ab7ba1469b3f|eef69cef-2886-4690-ac6d-3c6714fd0e58|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|169960000|84200000|8346df39-b160-45f2-ac52-ab7ba1469b3f|da4eed34-02ff-46ba-9660-b2475f12e0fb|F.Cu",
+          "decoupling caps don't carry high current"
+        ]
+      ],
       "meta": {
         "version": 2
       },
