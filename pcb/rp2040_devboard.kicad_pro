@@ -1,6 +1,26 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "front",
+        "ww": 1.0,
+        "wx": -35.895748138427734,
+        "wy": 18.96498680114746,
+        "wz": -21.295997619628906,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 1.7484555314695172e-07,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": -1.7484555314695172e-07,
+        "zz": 1.0
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_barcodes": false,
@@ -72,16 +92,104 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "starved_thermal|161465000|77950000|8346df39-b160-45f2-ac52-ab7ba1469b3f|4e2a7bef-06e2-4bea-9730-d87e985f48aa|F.Cu",
-          "decoupling caps don't carry high current"
+          "courtyards_overlap|158415000|88645000|5cb03610-fc53-4f50-9da5-309485fe2d28|c570c137-6848-4c2c-a1a7-96597871c1ab",
+          "OLED display in 3d is above and doesnt overlap"
         ],
         [
-          "starved_thermal|166500000|78360000|8346df39-b160-45f2-ac52-ab7ba1469b3f|eef69cef-2886-4690-ac6d-3c6714fd0e58|F.Cu",
-          ""
+          "courtyards_overlap|159065000|77485000|5cb03610-fc53-4f50-9da5-309485fe2d28|db8f3d2c-4052-4cd8-af74-baf8e232826c",
+          "OLED display in 3d is above and doesnt overlap"
         ],
         [
-          "starved_thermal|169960000|84200000|8346df39-b160-45f2-ac52-ab7ba1469b3f|da4eed34-02ff-46ba-9660-b2475f12e0fb|F.Cu",
-          "decoupling caps don't carry high current"
+          "courtyards_overlap|159180000|78505000|4f2c8d27-d09c-4d15-9aba-23b8b381f70e|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|160051004|83745000|4582f87b-44ba-4784-8b13-bc8e39b9fb19|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|160545000|94095000|5cb03610-fc53-4f50-9da5-309485fe2d28|6371bee9-7b3f-4d69-9869-09b795e41761",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|161040000|77495000|5cb03610-fc53-4f50-9da5-309485fe2d28|c0e38515-87da-4ed0-aceb-7de4418387e1",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|161555000|83625000|2170a29b-3ed0-4c19-abca-f7a26e8d56ea|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|163250573|93605000|5cb03610-fc53-4f50-9da5-309485fe2d28|ce98a260-2a3d-47e1-940d-6799b213dba1",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|163285000|92535000|5cb03610-fc53-4f50-9da5-309485fe2d28|807c36e3-d5d0-40f9-b242-8f7d865c6926",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|164045000|78575000|5cb03610-fc53-4f50-9da5-309485fe2d28|6a0d2bcf-5f8d-42e6-9973-d7f5e2b20f4a",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|164535000|81675000|5cb03610-fc53-4f50-9da5-309485fe2d28|7a46627c-5bb6-4b61-9b17-78e864322e1e",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|165045000|78575000|06dfb30b-09eb-4615-ab32-a5b42cfeae26|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|165535000|81684999|371a164b-5dcb-4643-acf9-1a56c62932f7|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|165745000|92615000|5cb03610-fc53-4f50-9da5-309485fe2d28|94d92ce6-c3bd-41e0-a19c-81f379d2573b",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|165795000|94615000|595b514b-0898-48e6-aa82-18291c067cb7|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|166045000|77935000|27136234-165d-4587-b4f2-6fcc1836edc0|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|166545000|81624999|50d5c620-9c94-4952-8a47-320cd831570d|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|166745000|92615000|5cb03610-fc53-4f50-9da5-309485fe2d28|889fb349-2b8e-4091-8e2b-3714d88da936",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|167545000|81815000|41dcf38c-222b-43e7-8831-175fcbdffdd6|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|168575000|83745000|5cb03610-fc53-4f50-9da5-309485fe2d28|84c5fcc2-34f0-4335-bd86-f01529efb0f9",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|168577747|82978787|5cb03610-fc53-4f50-9da5-309485fe2d28|fe414aff-5350-4d2d-8eda-51847e84e997",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "courtyards_overlap|169615000|88545000|5cb03610-fc53-4f50-9da5-309485fe2d28|b8d581f4-4df3-42b1-aa81-eb419b4fb95b",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "pth_inside_courtyard|161420000|107500000|9be635a9-d01c-4d33-99f7-181a04fdfbe6|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "pth_inside_courtyard|163960000|107500000|2effb265-be3c-4204-86e7-c76fe2cea28b|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
+        ],
+        [
+          "pth_inside_courtyard|166500000|107500000|3993eba1-9557-41c0-b8b5-a4e0486a3b76|5cb03610-fc53-4f50-9da5-309485fe2d28",
+          "OLED display in 3d is above and doesnt overlap"
         ]
       ],
       "meta": {
@@ -669,7 +777,7 @@
         "uuid": "8099f720-5a46-4059-82f0-4268e89e9a82"
       }
     ],
-    "used_designators": "U4",
+    "used_designators": "R8-9,#PWR26-27,U2,U4",
     "variants": []
   },
   "sheets": [
